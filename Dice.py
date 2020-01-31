@@ -13,7 +13,6 @@ You’ll also want a function that randomly grabs a number within that range and
 1. Random
 2. Integer
 3. Print
-4. While Loops
 '''
 
 import random
