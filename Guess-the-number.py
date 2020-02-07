@@ -38,7 +38,7 @@ elif guess > number:
 
 else:
     print('The guessed number is lower')
-    print('You sjould have guessed higher number')
+    print('You should have guessed higher number')
     difference()  
 
 print('Thank you For playing Guess-The-Number Game :)')
