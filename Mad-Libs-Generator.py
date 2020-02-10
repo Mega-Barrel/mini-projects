@@ -16,9 +16,15 @@ Concepts to keep in mind:
 4. Print
 
 '''
+noun = input('Enter a noun: ')
+plural_noun = input('Enter a plural noun: ')
+verb = input('Enter a verb(present tense): ')
+verb1 = input('Enter a verb(present tense): ')
 
-
-
+print('Today, every student has a computer small enough to fit into his', noun, '.')
+print('He can solve any math problem by simply pushing the computers little', plural_noun, '.')
+print('Computer can add, multiply, divide, and', verb, '.')
+print('They can also', verb1,'better than a human.')
 
 
 
