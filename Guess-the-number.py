@@ -1,4 +1,6 @@
 '''
+Project 2: Guess the number game.
+
 This project also uses the random module in Python. 
 The program will first randomly generate a number unknown to the user. 
 The user needs to guess what that number is. (In other words, the user needs to be able to input information.) 
