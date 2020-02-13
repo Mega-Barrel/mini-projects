@@ -41,3 +41,20 @@ It will then concatenate these strings with the pre-defined template.
 It will then print all the sentences with the user inputs strings.
 
 ![](./Output_images/Mad-Libs.png)
+
+
+# 4. Rock-Paper-Scissor Game 
+
+This game will be played by computer and user.
+
+The user has to choose from 1 to 3 values. 
+
+Value 1 is for Rock, Value 2 is for Paper and Value 3 is for Scissor. 
+In the other hand computer will randomly choose the value for 1 to 3 using random library.
+
+The user has to submit a value and it will compute who has won, If user and computer 
+generated the same value it will print "Both Wins".
+
+Then it will prompt user to continue the game or not.
+
+![](./Output_images/rock-paper-scissor.png)
