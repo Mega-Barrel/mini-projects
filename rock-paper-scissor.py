@@ -26,9 +26,9 @@ while True:
         choice_name = 'Scissor'
     print('User choice is', choice_name)
     
+
     # For computer to randomly generate a value
     computer_choice = random.randint(1,3)
-    # while computer_choice == choice:
     if computer_choice == 1: 
         com_cho_name = 'Rock'
     elif computer_choice == 2:
@@ -37,20 +37,34 @@ while True:
         com_cho_name = 'Scissor'
     print('Computer choice is', com_cho_name)
 
-    # condition for winning
-    print(f'user chosed {choice} and computer {computer_choice}')
-    if (choice == 1 and computer_choice == 3):
-        print('user Wins')
-        result = 'Rock'
-    elif (choice == 3 and computer_choice == 2):
-        print('computer Wins')
-        result = 'Scissor'
-    elif (choice == 3 and computer_choice == 1):
-        print('computer Wins')
-        result = 'Paper'
 
+    # Displaying user and computer choice
+    print(f'user choosed {choice} and computer choosed{computer_choice}')
+
+
+    # condition for winning    
+    if ((choice == 1 and computer_choice == 3) or (choice == 2 and computer_choice == 1) or
+    (choice == 3 and computer_choice == 2)):
+        print('Player Wins')
+
+    elif ((computer_choice == 1 and choice == 3) or (computer_choice == 2 and choice == 1) or
+    (computer_choice == 3 and choice == 2)):
+        print('computer Wins')
+    
+    elif ((choice == 1 and computer_choice == 1) or (choice == 2 and computer_choice == 2) or
+    (choice == 3 and computer_choice == 3)):
+        print('Both Wins')
+
+
+    # To play game again or exit
+    continue_game = input('Do you want to play again: ')
+    if continue_game == 'exit':
+        break
+    # if you want to play again type yes :)
+    elif continue_game == 'yes':
+        continue
 print()
-# print(random1)
+
 
 
 
