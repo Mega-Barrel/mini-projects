@@ -69,4 +69,4 @@ If both are same then it is anagram, else not a anagram.
 It will first ask user to play anagram checker or not.
 If player enters no the prohram will terminate.
 
-![](./Output_images/Anagram_Checker.png)
+![](./Output_images/Anagram_checker.png)
