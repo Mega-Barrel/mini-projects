@@ -58,3 +58,15 @@ generated the same value it will print "Both Wins".
 Then it will prompt user to continue the game or not.
 
 ![](./Output_images/rock-paper-scissor.png)
+
+# 5. Anagram Checker
+
+This project will take 2 input from user. Input may be string or integer.
+
+It will check if both of the string are equal using sorted() method. 
+If both are same then it is anagram, else not a anagram. 
+
+It will first ask user to play anagram checker or not.
+If player enters no the prohram will terminate.
+
+![](./Output_images/Anagram_Checker.png)
