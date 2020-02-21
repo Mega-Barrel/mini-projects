@@ -58,6 +58,8 @@ generated the same value it will print "Both Wins".
 Then it will prompt user to continue the game or not.
 
 ![](./Output_images/rock-paper-scissor.png)
+ld
+
 
 # 5. Anagram Checker
 
@@ -70,3 +72,11 @@ It will first ask user to play anagram checker or not.
 If player enters no the prohram will terminate.
 
 ![](./Output_images/Anagram_checker.png)
+
+
+# 6. Quiz Game 
+
+This project will consist of few question's with 4 options. 
+
+You'll have to select 1 option out of 4. 
+ 
