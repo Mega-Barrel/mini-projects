@@ -74,10 +74,3 @@ If player enters no the prohram will terminate.
 ![](./Output_images/Anagram_checker.png)
 
 
-# 6. Quiz Game 
-
-This project will consist of few question's with 4 options. 
-
-You'll have to select 1 option out of 4. 
-It will keep count of your correct answer and show it after completion of all question.
- 
