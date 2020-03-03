@@ -1,6 +1,5 @@
 # mini-projects
 This contains bunch of mini projects written in python.
-This repository is in development stage
 
 # 1. Dice project
 
