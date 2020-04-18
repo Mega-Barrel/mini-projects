@@ -39,7 +39,7 @@ while True:
 
 
     # Displaying user and computer choice
-    print(f'user choosed {choice} and computer choosed{computer_choice}')
+    print(f'user choosed {choice} and computer choosed {computer_choice}')
 
 
     # condition for winning    
@@ -58,12 +58,12 @@ while True:
 
     # To play game again or exit
     continue_game = input('Do you want to play again: ')
-    if continue_game == 'exit':
+    if continue_game == 'no':
+        print('Thank you for playing this game :)')
         break
     # if you want to play again type yes :)
     elif continue_game == 'yes':
         continue
-print()
 
 
 
